@@ -12,4 +12,9 @@
   8.vim app.py(Editor)
   9.touch requirements.txt
   10.cat requirements.txt
+  11.python app.py(to run app)
+2). Dockerize the Application
+  1.touch Dockerfile
+  2.vim Dockerfile
+
   
