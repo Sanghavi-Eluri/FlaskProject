@@ -16,5 +16,12 @@
 2). Dockerize the Application
   1.touch Dockerfile
   2.vim Dockerfile
-
+  (install docker desktop to run docker commands for this goto docker official website and download)
+  3.docker build -t flask-app .
+  4.docker run -p 5000:5000 flask-app
+3). Kubernetes Deployment
+    1.touch deployment.yaml
+    2.vim deployment.yaml
+    3.touch service.yaml
+    4.vim service.yaml
   
