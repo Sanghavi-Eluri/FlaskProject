@@ -24,4 +24,15 @@
     2.vim deployment.yaml
     3.touch service.yaml
     4.vim service.yaml
-  
+    (To run the k8's commands we need to install minikube which is a local cluster and kubectl which is like a cli)
+    (To install kubectl---(go to kubernetes official page search for kubectl and we have a command for windows to install kubectl)
+    5. curl.exe -LO "https://dl.k8s.io/release/v1.32.0/bin/windows/amd64/kubectl.exe"
+    (To verify the installlation of kubectl)
+    6. kubectl version --client
+    (To install minikube serch for minikube install go to minikube start and download by using commands)
+    7.curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe
+    8.mv minikube-windows-amd64.exe /c/Windows/System32/minikube.exe
+    9.minikube version
+    10.minikube start
+    11.minikube status
+    12.kubectl get nodes
