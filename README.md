@@ -36,3 +36,5 @@
     10.minikube start
     11.minikube status
     12.kubectl get nodes
+    13.kubectl apply -f deployment.yaml
+    14.
